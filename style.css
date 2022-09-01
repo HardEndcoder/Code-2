@@ -1,0 +1,173 @@
+/* Font used */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for the top-page */
+.container {
+    background: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    margin-bottom: 130px;
+
+}
+
+.top-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.first-block {
+    width: 531px;
+    height: 424px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+    background: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+
+}
+
+img {
+    width: 581px;
+    height: 613px;
+}
+
+/* styles for side-bar  */
+.container-2 {
+    width: 1321px;
+    display: flex;
+    margin-bottom: 130px;
+
+}
+
+
+
+.little-banner {
+    background: #161616;
+    border-radius: 10px;
+    width: 312px;
+    height: 330px;
+}
+
+.side-nav {
+    padding: 30px;
+}
+
+.button-red {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+    background: #DD0000;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.buttons {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background: whitesmoke;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 10px;
+}
+
+/* Article section styles */
+.grid-them {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    margin-left: 24px;
+}
+
+.border-area {
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+
+}
+
+h3 {
+    margin: 12px;
+}
+
+.match-area {
+    padding: 50px;
+}
+
+.match {
+    display: flex;
+}
+
+.match img {
+    width: 93.04px;
+    height: 54.42px;
+}
+
+.description {
+    text-align: center;
+}
+
+.description p {
+    color: #4D4D4D;
+}
+
+/* Styles for footer  */
+footer {
+    background-color: #161616;
+
+}
+
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 130px 752px 0 752px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1320px;
+
+}
+
+.address {
+    color: #B9B9B9;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 351px 130px 351px;
+    margin-top: 50px;
+}
